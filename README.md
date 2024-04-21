@@ -1,6 +1,6 @@
-# Inventory Management Center
+# Inventory Control Center
 
-The "Inventory Management Center" project is a system designed to oversee material handling within a gaming context. In the game Sandship, players can organize, store, and manipulate materials within warehouses, each with its own designated capacity.
+The "Inventory Control Center" project is a system designed to oversee material handling within a gaming context. In the game Sandship, players can organize, store, and manipulate materials within warehouses, each with its own designated capacity.
 
 ## Functionality
 
