@@ -1,18 +1,33 @@
 # Inventory Control Center
 
-The "Inventory Control Center" project is a system designed to oversee material handling within a gaming context. In the game Sandship, players can organize, store, and manipulate materials within warehouses, each with its own designated capacity.
+Inventory Control Center is a Java project designed to manage warehouse operations efficiently. It provides an abstract class `Storage` for creating storage facilities like warehouses and implements methods for material management. The project leverages abstraction to support various storage types, including warehouses, chests, etc.
 
-## Functionality
+## Features
 
-- **Warehouses**: Players can establish and administer multiple warehouses for the storage of materials.
-- **Materials**: Each material is categorized by type, featuring a name, description, and maximum capacity.
-- **Operations**: Users can execute actions such as adding, removing, and relocating materials between warehouses.
+- **Abstract Class**: `Storage` serves as a blueprint for creating storage facilities.
+- **Material Management**: Implementations for adding, removing, and relocating materials.
+- **Validation**: Ensures material quantities are within capacity limits.
+- **Singleton Pattern**: Singleton implementations for material adder, remover, and material relocation.
+- **Model Classes**: Includes a template class `Material` with attributes like name, description, icon, and max capacity.
+- **Warehouse Class**: Extends `Storage` and represents a warehouse with its own material storage.
 
-## Getting Started
+## Usage
 
-1. **Installation**: Clone the repository to your local machine.
-2. **Execution**: Launch the project to commence utilizing its features for warehouse and material management.
+1. **Material Management**: Utilize `MaterialAdderImpl` and `MaterialRemoverImpl` for adding and removing materials.
+2. **Material Relocation**: Use `MaterialRelocation` for moving materials between storage facilities.
+3. **Model**: Customize material attributes in the `Material` class.
+4. **Warehouse Creation**: Extend the `WareHouse` class to create specific storage facilities.
 
-## Important Notes
+## How to Use
 
-This project serves to streamline material management processes within a gaming environment. Please refer to the provided instructions for efficient interaction with warehouses and materials.
+1. Clone the repository to your local machine.
+2. Explore and modify classes as needed.
+3. Compile and run the project to manage warehouse operations efficiently.
+
+## Contributors
+
+- Janik Sarkisjanov - Developer
+
+---
+Ensure optimal material management with Inventory Control Center. Simplify warehouse operations and enhance productivity.
+
